@@ -4,6 +4,7 @@ csgo/*
 csgo/addons/sourcemod/logs/
 !csgo/cfg/custom/
 !csgo/cfg/sourcemod/
+!csgo/webapi_authkey.txt
 csgo/expressions/
 csgo/panorama/
 csgo/scripts/
