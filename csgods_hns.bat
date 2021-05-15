@@ -1,0 +1,3 @@
+copy .\csgo\mapcycle_hns.txt .\csgo\mapcycle.txt & REM copy .\csgo\mapcycle_hns.txt .\csgo\maplist.txt
+start cmd /C "echo Starting HTTPD... && .\fastdl\bin\httpd.exe" & 
+.\srcds.exe -high -usercon -console -game csgo -tickrate 128 -port 27015 +sv_setsteamaccount A6C24B11CEEB2539F7ACE0DE7D1FC170 -maxdownloadfilesizemb 500 +sv_pure 0 +sv_lan 1 +game_type 0 +game_mode 1 -mapcyclefile mapcycle_hns.txt +mapgroup mg_hns +map hns_zen_v1 +exec autoexec

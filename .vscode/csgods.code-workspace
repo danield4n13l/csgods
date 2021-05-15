@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"sourcepawnLanguageServer.sourcemod_home": "d:/Servers/csgods/csgo/addons/sourcemod/scripting/include/"
+	}
+}

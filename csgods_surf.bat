@@ -1,0 +1,3 @@
+copy .\csgo\mapcycle_hns.txt .\csgo\mapcycle.txt & REM copy .\csgo\mapcycle_hns.txt .\csgo\maplist.txt
+start cmd /C "echo Starting HTTPD... && .\fastdl\bin\httpd.exe" & 
+.\srcds.exe -high -usercon -console -game csgo -tickrate 64 -port 27015 +sv_setsteamaccount FC5A040B9FE37CD22A8772BFBE0A1FC2 -maxdownloadfilesizemb 500 +sv_pure 0 +sv_lan 0 +game_type 0 +game_mode 1 -mapcyclefile mapcycle_hns.txt +mapgroup mg_surf +map surf_utopia_v3 +exec autoexec
