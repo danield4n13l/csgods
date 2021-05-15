@@ -1,15 +1,19 @@
+#normal rules go here
 bin/
-csgo/*
-!csgo/addons/
+csgo/*.*
 csgo/addons/sourcemod/logs/
-!csgo/cfg/custom/
-!csgo/cfg/sourcemod/
-!csgo/webapi_authkey.txt
+csgo/cfg/*.*
+csgo/cfg/coop/
+csgo/cfg/survival/
 csgo/expressions/
+csgo/logs/
+csgo/maps/
+csgo/materials/
+csgo/models/
 csgo/panorama/
+csgo/resource/
+csgo/scenes/
 csgo/scripts/
-!csgo/sound/
-!csgo/sound/*
 fastdl/logs/**
 fastdl/logs/error.log
 fastdl/logs/httpd.pid
@@ -18,5 +22,9 @@ platform/
 steamapps/
 
 
-
-
+#inverted rules go below
+!csgo/addons/
+!csgo/cfg/sourcemod
+!csgo/sound/
+!csgo/sound/**
+!csgo/webapi_authkey.txt
