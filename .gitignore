@@ -27,4 +27,5 @@ steamapps/
 !csgo/cfg/sourcemod
 !csgo/sound/
 !csgo/sound/**
+!csgo/README.md
 !csgo/webapi_authkey.txt
