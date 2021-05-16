@@ -28,4 +28,6 @@ steamapps/
 !csgo/sound/
 !csgo/sound/**
 !csgo/README.md
+!csgo/bspconvar_whitelist.txt
+!csgo/mapcycle*.txt
 !csgo/webapi_authkey.txt
