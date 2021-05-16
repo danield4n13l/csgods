@@ -21,6 +21,7 @@ fastdl/www/
 platform/
 steamapps/
 
+*.dmp
 
 #inverted rules go below
 !csgo/addons/
